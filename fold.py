@@ -25,4 +25,3 @@ if args.scratch:
   else:
     protein_fasta = ""
     fasta = open(protein_fasta).read().split("\n")[1]
-
