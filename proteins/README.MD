@@ -1,1 +1,1 @@
-### This directory contains the proteins of the polio VP3 virus
+This directory contains the proteins of the polio VP3 virus
