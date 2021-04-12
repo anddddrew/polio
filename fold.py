@@ -15,7 +15,7 @@ parser.add_argument('--steps' type=int, default=100000, help="number should fold
 try:
   platform Platform.getPlatformByName("CUDA")
 except Exception:
-  platform Platform.getPlatformByName("OpenCL")
+  platform Platform.getPlatformByName("OpenGL")
 
 
 # Unfold the protein
