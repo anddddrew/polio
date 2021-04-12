@@ -1,1 +1,3 @@
-simtk
+simtk 
+MDAnalysis
+PyOpenGL
