@@ -11,3 +11,4 @@ def get_amber99sb():
   from xml.dom import minidom
   amber99sb = minidom.parse(os.path.join(BASEDIR, "amber99sb.xml"))
   return amber99sb
+  
