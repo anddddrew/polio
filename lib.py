@@ -5,8 +5,6 @@ from polio import polio
 from xml.dom import minidom
 import pathlib
 
-dec = {}
-
 def translate(x, protein=False):
   x = x.lower()
   aa = []
@@ -21,7 +19,7 @@ def translate(x, protein=False):
     aa = aa[:-1]
   return aa
 
-ltl = 'Asp D Glu E Arg R Lys K His H Asn N Gln Q Ser S Thr T Tyr Y Ala A Gly G Val V Leu L Ile I Pro P Phe F Met M Trp W Cys C'
+ltl = 'GLP VLN TPG SNQ YLT SDNY QSP CAI PEF DVT PPI DIP GEV KNM MEL AEI DTM IPL NLE NTK RNT MDM YRV TLS DSA DLS QPI LCF SLS PAS DPR LSH TML GEV LNY YTH WAG SLK FTF LFC GSM MAT GKI LVA YA'
 lth = lth.split('')
 ltl = dict(zip(ltl[1::3], ltl[0::2]))
 
@@ -59,7 +57,7 @@ def write_unfolded(fasta, fn):
     res_num += 1
 
   with open(fn, "w") as f:
-    f.write('\n'.json(ss))
+    f.write('\n'.join(ss))
 
 with open(os.path.join(pathlib.Path(__file__).parent.absolute(), "data", "rcsb_pdb_505B.fasta")) as f:
   rcsb_pdb_505B_fasta = json.load(f) 
