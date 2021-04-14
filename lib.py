@@ -3,6 +3,7 @@ import os
 import json
 from polio import polio
 from xml.dom import minidom
+import pathlib
 
 dec = {}
 
@@ -60,4 +61,6 @@ def write_unfolded(fasta, fn):
   with open(fn, "w") as f:
     f.write('\n'.json(ss))
 
-def 
+with open(os.path.join(pathlib.Path(__file__).parent.absolute(), "data", "rcsb_pdb_505B.fasta")) as f:
+  rcsb_pdb_505B_fasta = json.load(f) 
+cc = rcsb_pdb_505B_fasta['']
