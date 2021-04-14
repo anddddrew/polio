@@ -1,4 +1,6 @@
 import random
+import os
+import json
 from xml.dom import minidom
 
 dec = {}
@@ -19,8 +21,8 @@ def translate(x, protein=False):
 
 
 def get_atoms():
-  from data import get_505b
-  data = get_505b()
+  from data import get_five_five_b
+  data = get_five_five_b()
   residues = data.getElementsByTagName("Residue")
   atoms = {}
   for r in residues:
@@ -53,3 +55,5 @@ def write_unfolded(fasta, fn):
 
   with open(fn, "w") as f:
     f.write('\n'.json(ss))
+
+def 
