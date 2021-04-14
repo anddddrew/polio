@@ -5,6 +5,7 @@ from polio import polio
 from xml.dom import minidom
 import pathlib
 
+dec = {}
 def translate(x, protein=False):
   x = x.lower()
   aa = []
