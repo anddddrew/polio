@@ -1,4 +1,4 @@
 simtk 
-yaml
 requests
 biopython
+pytest
