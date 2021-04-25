@@ -1,2 +1,3 @@
+# NOQA
 import unittest
-from unittest import mock
+from unittest import mock 
