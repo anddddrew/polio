@@ -4,6 +4,8 @@ import json
 from polio import polio
 from xml.dom import minidom
 import pathlib
+from genome import Genome
+from genome import GenomeBuilder
 
 dec = {}
 def translate(x, protein=False):
@@ -62,4 +64,6 @@ def write_unfolded(fasta, fn):
 
 with open(os.path.join(pathlib.Path(__file__).parent.absolute(), "data", "rcsb_pdb_505B.fasta")) as f:
   rcsb_pdb_505B_fasta = json.load(f) 
-cc = rcsb_pdb_505B_fasta['DQ904570']
+nucleotideSequence = rcsb_pdb_505B_fasta['DQ904570']
+builder = GenomeBuilder(nucleotideSequence)
+genome = builder.build()
