@@ -7,4 +7,6 @@ import os as os
 import argparse  
 
 
-parse = argparse.ArgumentParser(description="Fold proteins.")
+parser = argparse.ArgumentParser(description="Fold proteins.")
+parser.add_argument('--scratch', action='store_true')
+parser.add_argument('--temp', type=int, default=300)
