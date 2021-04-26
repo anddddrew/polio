@@ -42,7 +42,7 @@ def write_unfolded(fasta, fn):
   atom_num = 1
   res_num = 1 
   ss = [] 
-  random.seed(1338)
+  random.seed(1337)
   for i, aa in enumerate(fasta):
     tl = ltl[aa].upper()
     for a in atoms[tl] + ([] if i != len(fasta)-1 else ["OXT"]):
