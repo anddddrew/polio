@@ -9,5 +9,5 @@ with open(os.path.join(BASEDIR, "rcsb_pdb_505B.fasta")) as f:
 
 def get_five_five_b():
   from xml.dom import minidom
-  five_five_b = minidom.parse(os.path.join(BASEDIR, "505b.pdb"))
+  five_five_b = minidom.parse(os.path.join(BASEDIR, "505b.xml"))
   return five_five_b
