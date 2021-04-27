@@ -2,3 +2,4 @@ simtk
 requests
 biopython
 pytest
+PyYAML
