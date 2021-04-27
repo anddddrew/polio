@@ -21,7 +21,7 @@ The `translate` function is used in [`corona.py`](corona.py) to identify and ann
 
 ## :bulb: TODO
 - MD (Molecular dynamics)
-- Seconday Structure prediction of the protein.
+- Secondary Structure prediction of the protein.
 - Automatically download the nucleotide sequence data.
 
 ### Translating RNA to proteins
