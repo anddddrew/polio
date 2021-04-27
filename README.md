@@ -1,6 +1,6 @@
 # Reverse engineering the polio virus (PV3)
 
-**You can start here**: [`polio.py`](polio.py)
+**You can start here!**: [`polio.py`](polio.py)
 
 ## :thought_balloon: Background
 This project applies techniques from [reverse engineering](https://en.wikipedia.org/wiki/Information_processor) to understand the [Polio]
@@ -9,7 +9,6 @@ This project applies techniques from [reverse engineering](https://en.wikipedia.
 ### Biology versus Software
 Biological systems are fundamentally [information processing systems](https://en.wikipedia.org/wiki/Information_processor). While it is not a perfect analogy, software provides a useful tool for thinking about biology. The table below provices a rough outline of this analogy.
 
-## Progress
 ### Downloading the Polio PV3 genome
 [GenBank](https://www.ncbi.nlm.nih.gov/genbank/) is the NIH genetic sequence database, an annotated collection of all publicly available DNA and RNA sequences. The Polio PV3 sequences available in GenBank have been downloaded in [`download_sequences.py`](download_sequences.py).
 
