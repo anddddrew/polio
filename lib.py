@@ -63,7 +63,7 @@ def write_unfolded(fasta, fn):
     f.write('\n'.join(ss))
 
 with open(os.path.join(pathlib.Path(__file__).parent.absolute(), "data", "rcsb_pdb_505B.fasta")) as f:
-  rcsb_pdb_505B_fasta = json.load(f) 
-nucleotideSequence = rcsb_pdb_505B_fasta['DQ904570']
+  allseq = json.load(f) 
+nucleotideSequence = allseq['DQ904570']
 builder = GenomeBuilder(nucleotideSequence)
 genome = builder.build()
