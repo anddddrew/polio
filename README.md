@@ -3,8 +3,7 @@
 **You can start here!**: [`polio.py`](polio.py)
 
 ## :thought_balloon: Background
-This project applies techniques from [reverse engineering](https://en.wikipedia.org/wiki/Information_processor) to understand the [Polio]
-(https://en.wikipedia.org/wiki/Polio) virus. The goal here is to build an understaning of this virus from the first basis.
+This project applies techniques from [reverse engineering](https://en.wikipedia.org/wiki/Information_processor) to understand the [Polio](https://en.wikipedia.org/wiki/Polio) virus. The goal here is to build an understanding of this virus from the first basis.
 
 ### Biology versus Software
 Biological systems are fundamentally [information processing systems](https://en.wikipedia.org/wiki/Information_processor). While it is not a perfect analogy, software provides a useful tool for thinking about biology. The table below provices a rough outline of this analogy.
@@ -30,9 +29,8 @@ The `translate` function is used in [`corona.py`](corona.py) to identify and ann
 - textbooks
   - Molecular Biology of the Cell
 - classes 
-  - better tests - https://ocw.mit.edu/courses/biology/7-012-introduction-to-biology-fall-2004/index.htm
   - suspected better lectures - https://ocw.mit.edu/courses/biology/7-014-introductory-biology-spring-2005/index.htm
-  - alternative lectures - https://youtube.com/playlist?list=PLGhmZX2NKiNldpyRUBBEzNoWL0Cso1jip
+  -  lectures - https://youtube.com/playlist?list=PLGhmZX2NKiNldpyRUBBEzNoWL0Cso1jip
   - basics - https://www.khanacademy.org/science/biology
 
 ### Epidemic modeling
