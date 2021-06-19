@@ -4,10 +4,12 @@ from simtk.unit import *
 from sys import stdout
 import sys
 import os as os
-import argparse  
+import argparse
 
 
 parser = argparse.ArgumentParser(description="Fold proteins.")
-parser.add_argument('--scratch', action='store_true')
-parser.add_argument('--temp', type=int, default=300)
-
+parser.add_argument("--scratch", action="store_true")
+parser.add_argument("--temp", type=int, default=300)
+parser.add_argument("--step", type=int, default=100000, help="2500000000 Should fold the protein")
+parser.add_argument("--fasta", type=str, default=None)
+                    
