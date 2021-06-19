@@ -1,21 +1,22 @@
 # Reverse engineering the polio virus (PV3)
 
+:)
 **You can start here!**: [`polio.py`](polio.py)
 
 ## :thought_balloon: Background
 This project applies techniques from [reverse engineering](https://en.wikipedia.org/wiki/Information_processor) to understand the [Polio](https://en.wikipedia.org/wiki/Polio) virus. The goal here is to build an understanding of this virus from the first basis.
 
 ### Biology versus Software
-Biological systems are fundamentally [information processing systems](https://en.wikipedia.org/wiki/Information_processor). While it is not a perfect analogy, software provides a useful tool for thinking about biology. The table below provices a rough outline of this analogy.
+Biological systems are fundamentally [information processing system](https://en.wikipedia.org/wiki/Information_processor). While it is not a perfect analogy, software provides a useful tool for thinking about biology. The table below provices a rough outline of this analogy.
 
 ### Downloading the Polio PV3 genome
 [GenBank](https://www.ncbi.nlm.nih.gov/genbank/) is the NIH genetic sequence database, an annotated collection of all publicly available DNA and RNA sequences. The Polio PV3 sequences available in GenBank have been downloaded in [`download_sequences.py`](download_sequences.py).
 
 ### Folding proteins
-The [OpenMM](http://openmm.org/) toolkit is useful for molecular simulation of protein folding in [`fold.py`](fold.py).
+The [OpenMM](http://openmm.org/) toolkit is useful for molecular simulation and protein folding in [`fold.py`](fold.py).
 
 ## Annotated functions
-The `translate` function is used in [`corona.py`](corona.py) to identify and annontate functions for all proteins encoded by the genome.
+The `translate` function is used in [`polio.py`](polio.py) to identify and annontate functions for all proteins encoded by the genome.
 
 ## :bulb: TODO
 - MD (Molecular dynamics)
