@@ -21,7 +21,6 @@ The `translate` function is used in [`polio.py`](polio.py) to identify and annon
 ## :bulb: TODO
 - MD (Molecular dynamics)
 - Secondary Structure prediction of the protein.
-- Automatically download the nucleotide sequence data.
 
 ### Translating RNA to proteins
 [`lib.py`](lib.py) contains a function `translate` that converts an RNA sequence to a chain of [amino acids](https://en.wikipedia.org/wiki/Amino_acid). This function is used in [`polio.py`](polio.py).
