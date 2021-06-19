@@ -1,1 +1,0 @@
-# Mail file for molecur dyanimcs/simulations of protein folding for polio type 3.
