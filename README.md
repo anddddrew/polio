@@ -19,8 +19,8 @@ The [OpenMM](http://openmm.org/) toolkit is useful for molecular simulation and 
 The `translate` function is used in [`polio.py`](polio.py) to identify and annontate functions for all proteins encoded by the genome.
 
 ## :bulb: TODO
-- MD (Molecular dynamics)
 - Secondary Structure prediction of the protein.
+- A gui for protein folding possibly in tkinter or kivy??
 
 ### Translating RNA to proteins
 [`lib.py`](lib.py) contains a function `translate` that converts an RNA sequence to a chain of [amino acids](https://en.wikipedia.org/wiki/Amino_acid). This function is used in [`polio.py`](polio.py).
