@@ -15,14 +15,14 @@ parser.add_argument("--fasta", type=str, default=None)
 parser.add_argument("--writes", type=int, default=100, help="Default is 100.")
 
 try:
-  platform = Platform.getPlatformByName("CUDA")
+  platform = Platform.getPlatformByName('CUDA')
 except LookupError or Exception:
-  platform = Platform.getPlatformByName("OpenCL")
+  platform = Platform.getPlatformByName('OpenCL')
 
 if args.scratch:
   if args.fasta != None:
     fasta = args.fasta
   else:
-     protein_fasta =  "data/rcsb
-
+     protein_fasta =  'proteins/data/6z6w.fasta'
+    
   
