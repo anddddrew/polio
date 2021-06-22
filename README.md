@@ -40,7 +40,8 @@ The `translate` function is used in [`polio.py`](polio.py) to identify and annon
 
 ### Antibodies
 - https://www.abcam.com/products?sortOptions=Relevance&selected.classification=Primary+antibodies&keywords=Poliovirus%20type%203&gclid=Cj0KCQjwyZmEBhCpARIsALIzmnL9mqAYnktr6WPFSV-Sh6Q_G7Vsba0rYueUgARZWrxzQTU01Kxy0uwaAjF9EALw_wcB&gclsrc=aw.ds
-
+- 
+https://cdn.discordapp.com/attachments/816757762956591124/856716496222421002/picture.PNG
 
 ### Unit Tests
 - You can run unit tests via running ```./run_tests``` in the root of the directory, This will automatically run all unit tests. 
