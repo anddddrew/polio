@@ -23,5 +23,6 @@ if args.scratch:
   if args.fasta != None:
     fasta = args.fasta
   else:
-    pass
+     protein_fasta =  "data/rcsb
 
+  

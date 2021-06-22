@@ -22,3 +22,4 @@ class GenomeBuilder():
     def validate(self):
       my_set = set('ACGTU')
       return set(self.genome.get_nucleotideSequence).issubset(my_set)
+      
