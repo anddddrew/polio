@@ -3,6 +3,8 @@
 :)
 **You can start here!**: [`polio.py`](polio.py)
 
+> Note: There are 3 types of polio PV1, PV2, PV3 - Each have a slightly different capsid protein All three are the extremely virulent and produce the same symptoms.
+
 ## :thought_balloon: Background
 This project applies techniques from [reverse engineering](https://en.wikipedia.org/wiki/Information_processor) to understand the [Polio](https://en.wikipedia.org/wiki/Polio) virus. The goal here is to build an understanding of this virus from the first basis.
 
@@ -41,9 +43,7 @@ The `translate` function is used in [`polio.py`](polio.py) to identify and annon
 
 
 ### Unit Tests
-You can run unit tests via running ```./run_tests``` in the root of the directory, This will automatically run all unit tests. 
-
-> Note: There are 3 types of polio PV1, PV2, PV3 - Each have a slightly different capsid protein All three are the extremely virulent and produce the same symptoms.
+- You can run unit tests via running ```./run_tests``` in the root of the directory, This will automatically run all unit tests. 
 
 ⚠️ This is not medical advice, THe information in the repository is for informational purposes only.
 
