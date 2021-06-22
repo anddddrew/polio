@@ -1,7 +1,6 @@
 import random
 import os
 import json
-from polio import polio
 from xml.dom import minidom
 import pathlib
 from genome import Genome
@@ -23,7 +22,7 @@ def translate(x, protein=False):
   return aa
 
 ltl = 'GLP VLN TPG SNQ YLT SDNY QSP CAI PEF DVT PPI DIP GEV KNM MEL AEI DTM IPL NLE NTK RNT MDM YRV TLS DSA DLS QPI LCF SLS PAS DPR LSH TML GEV LNY YTH WAG SLK FTF LFC GSM MAT GKI LVA YA'
-lth = lth.split('')
+ltl = ltl.split(' ')
 ltl = dict(zip(ltl[1::3], ltl[0::2]))
 
 def get_atoms():
@@ -62,8 +61,8 @@ def write_unfolded(fasta, fn):
   with open(fn, "w") as f:
     f.write('\n'.join(ss))
 
-with open(os.path.join(pathlib.Path(__file__).parent.absolute(), "data", "rcsb_pdb_505B.fasta")) as f:
-  allseq = json.load(f) 
+with open(os.path.join(pathlib.Path(__file__).parent.absolute(), "data", "allseq.json")) as f:
+  allseq = json.load(f)
 nucleotideSequence = allseq['DQ904570']
 builder = GenomeBuilder(nucleotideSequence)
 genome = builder.build()
