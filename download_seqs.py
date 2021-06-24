@@ -3,9 +3,8 @@ from Bio import Entrez
 import json
 import yaml
 
-# these are the publicly available "complete" sequences
-# https://www.gisaid.org/ has more (1200?), but they require you to sign up
 
+# Download public nucleotide sequences from genbank db
 seqs = yaml.load(requests.get("https://www.ncbi.nlm.nih.gov/core/assets/genbank/files/ncov-sequences.yaml").text)
 seqs = seqs['genbank-sequences']
 print("Got %d seqs" % len(seqs))
