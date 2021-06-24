@@ -2,6 +2,7 @@ from simtk.openmm.app import *
 from simtk.openmm import *
 from simtk.unit import *
 from sys import stdout
+from lib import write_folded
 import sys
 import os as os
 import argparse
@@ -24,5 +25,16 @@ if args.scratch:
     fasta = args.fasta
   else:
      protein_fasta =  'proteins/data/6z6w.fasta'
-    
+     fasta = open(protein_fasta).read().split("\n")[1]
+     print("Folding %s" % fasta)
+     write_folded(fasta, "/temp/unfolded.pdb")
+     pdb = PDBFile("/temp/unfolded.pdb")
+else:
+  pdb = PDBFile(args.pdb)
+  
+
+
+                                                
+
+
   
