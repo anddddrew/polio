@@ -1,4 +1,5 @@
 import requests
+from Bio import Entrez
 import json
 import yaml
 
@@ -9,7 +10,6 @@ seqs = yaml.load(requests.get("https://www.ncbi.nlm.nih.gov/core/assets/genbank/
 seqs = seqs['genbank-sequences']
 print("Got %d seqs" % len(seqs))
 
-from Bio import Entrez
 allseq =  {}
 for x in seqs:
   if 'gene-region' in x and x['gene-region'] == "complete":
