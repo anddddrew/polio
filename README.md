@@ -37,10 +37,10 @@ The `translate` function is used in [`polio.py`](polio.py) to identify and annon
 
 ### Epidemic modeling
 - http://epidemicforecasting.org
-- 
+
 ### Software
 - Pymol is a open-source molecular visualization software created by Warren Lyford DeLano. It is used for visualization of macromolecules and proteins. - https://pymol.org/2/
-- 
+
 ### Antibodies
 - https://www.abcam.com/products?sortOptions=Relevance&selected.classification=Primary+antibodies&keywords=Poliovirus%20type%203&gclid=Cj0KCQjwyZmEBhCpARIsALIzmnL9mqAYnktr6WPFSV-Sh6Q_G7Vsba0rYueUgARZWrxzQTU01Kxy0uwaAjF9EALw_wcB&gclsrc=aw.ds
 - 
