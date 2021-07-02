@@ -47,10 +47,12 @@ system = force_field.createSystem(modeller.topology,
   implicitSolvent=OBC2,
   nonbondedMethod=NoCutoff, nonbondedCutoff=1*nanometer,
   constraints=HBonds)
+
 integrator = LangevinIntegrator(args.temp*kelvin, 1/picosecond, 2*femtoseconds)
 simulation = Simulation(modeller.topology, system, integrator, platform)
 simulation.context.setPositions(modeller.positions)
 simulation.minimizeEnergy()
+
 steps = args.steps
 steps_write(max(1, steps/args.writes()
 print("Writing every %d steps!" % steps_write)
