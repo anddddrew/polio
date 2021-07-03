@@ -1,5 +1,5 @@
 simtk 
 requests
-biopython
 pytest
 PyYAML
+biopython
