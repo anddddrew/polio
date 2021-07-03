@@ -54,7 +54,7 @@ simulation.context.setPositions(modeller.positions)
 simulation.minimizeEnergy()
 
 steps = args.steps
-steps_write(max(1, steps/args.writes()
+steps_write = max(1, steps/args.writes)
 print("Writing every %d steps!" % steps_write)
 simulation.reporters.append(PDBReporter(args.out, steps_write))
 simulation.reporters.append(StateDataReporter(stdout, steps_write, step=True, potentialEnergy=True, temperature=True))
