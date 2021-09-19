@@ -3,5 +3,5 @@
 .un
 .idea
 ./WorkShopHackation2018
-__pycache__/
+__pycache__
 *.pyc 
