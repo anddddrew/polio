@@ -1,0 +1,17 @@
+name: Build
+
+on:
+  - push
+  - pull_request
+
+jobs:
+  docker-dev-lint:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+        python: [3.6, 3.8]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build the Image
+        run: docker build polio.Dockerfile .
