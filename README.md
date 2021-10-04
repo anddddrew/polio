@@ -1,3 +1,4 @@
+<!-- DO NOT REMOVE - contributor_list:data:start:["notandrewdev"]:end -->
 # Reverse engineering the polio virus (PV3)
 
 :)
@@ -50,3 +51,13 @@ The `translate` function is used in [`polio.py`](polio.py) to identify and annon
 ⚠️ This is not medical advice, The information in the repository is for informational purposes only.
 
 *A project by Andrew Nijmeh*
+
+<!-- prettier-ignore-start -->
+<!-- DO NOT REMOVE - contributor_list:start -->
+## 👥 Contributors
+
+
+- **[@notandrewdev](https://github.com/notandrewdev)**
+
+<!-- DO NOT REMOVE - contributor_list:end -->
+<!-- prettier-ignore-end -->
