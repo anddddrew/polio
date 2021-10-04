@@ -3,7 +3,7 @@ name: contributors
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   contributor_list:
