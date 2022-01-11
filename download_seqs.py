@@ -19,3 +19,4 @@ for x in seqs:
 
 with open('data/allseq.json', "w") as f:
   json.dump(allseq, f)
+  print("Dumped sequences into data/allseq.json")
