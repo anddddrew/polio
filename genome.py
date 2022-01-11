@@ -1,4 +1,4 @@
-# A genome sequence is a compelte list of nucelotides
+# A genome sequence is a complete list of nucelotides
 # (A, C, G AND T for DNA genomes) that make up all
 # chromosomes of an individual specie(s).
 
