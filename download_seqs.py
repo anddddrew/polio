@@ -5,7 +5,7 @@ import yaml
 
 
 # Download public nucleotide sequences from genbank db
-seqs = yaml.load(requests.get("https://www.ncbi.nlm.nih.gov/core/assets/genbank/files/ncov-sequences.yaml").text)
+seqs = yaml.load(requests.get("https://www.ncbi.nlm.nih.gov/core/assets/genbank/files/pv-sequences.yaml").text)
 seqs = seqs['genbank-sequences']
 print("Got %d seqs" % len(seqs))
 
