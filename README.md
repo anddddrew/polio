@@ -14,4 +14,4 @@
 - **[@anddddrew](https://github.com/anddddrew)**
 
 <!-- DO NOT REMOVE - contributor_list:end -->
-<!-- prettier-ignore-end -->https://github.com/anddddrew/polio
+<!-- prettier-ignore-end --> https://github.com/anddddrew/polio
